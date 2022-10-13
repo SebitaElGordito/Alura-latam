@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<h1>Reto pares del 1 al 100</h1>
+
+
+<br>
+<br>
+<script>
+
+	function saltarlinea (){
+
+		document.write("<br>");
+		document.write("<br>");
+		
+	}
+
+	function imprimir(mensaje){
+		document.write("<big>" + mensaje + "</big>");
+		saltarlinea();
+	}
+	var contador = 1
+	while (contador <= 100){
+		if (contador%2==0){
+			imprimir(contador);
+			contador = contador +1;
+		}
+		else {contador = contador +1}
+	}
+
+	imprimir("Fin");
+	
+</script>

@@ -1,0 +1,17 @@
+.pie-de-pagina{
+    background: #bfbfbf;
+    color: #fdfdfd;
+    text-align: right;
+    padding: 1.5625rem 5rem;
+    text-transform: lowercase;
+
+}
+
+@media (max-width:768px){
+    .pie-de-pagina{
+        text-align: center;
+        width: 100%;
+        padding: 1rem 2rem;
+
+    }
+}

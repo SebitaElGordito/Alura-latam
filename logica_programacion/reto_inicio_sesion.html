@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<h1>INICIO SESION</h1>
+<br>
+<script>
+
+    var inicioDeSesionRegistrado = "alura";
+    var contrasenhaRegistrada = "alura321";
+    var contador = 1
+    while (contador <= 3){
+        var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+        var contrasenhaIngresada = prompt("Ingrese su contraseña");
+        if( inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
+            alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+            break;
+    } else {
+        if (contador<3){
+        alert("inicio de sesión inválido. Favor intente de nuevo");
+        contador = contador +1;
+    }   else{
+        alert("inicio de sesión inválido. Ya ha agotado sus 3 oportunidades, por favor comuniquese con el administrador para desbloquear su cuenta...")
+        break;
+    }}}
+
+
+</script>

@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<h1>PROGRAMA PARA CALCULO IMC</h1>
+
+
+<br>
+<br>
+<script>
+
+	function saltarlinea (){
+
+		document.write("<br>");
+		document.write("<br>");
+		
+	}
+
+	function imprimir(mensaje){
+
+		document.write(mensaje);
+		saltarlinea();
+	}
+
+	function calcularImc(peso, altura, nombre){
+		imc=peso/(altura*altura);
+		imprimir(nombre + ", su indice de masa corporal es de " + imc);
+	}
+	nombre = prompt("ingrese su nombre")
+	peso = prompt(nombre + ", ingrese su peso")
+	altura = prompt(nombre + ", ingrese su altura")
+	calcularImc(peso,altura,nombre);
+	
+</script>

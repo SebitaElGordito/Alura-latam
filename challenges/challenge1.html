@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        
+        <title>Encriptador</title>
+
+    </head>
+
+    <body>
+        <header>
+            <h1><img src="imagenes/Vector.png" alt="Logo Alura letra a"></h1>
+        </header>
+
+        <main>
+            <section>
+                <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aquí..." autofocus></textarea>
+                <img src="imagenes/Vectorvector2.png" alt="signo admiración">
+                <label>"ingrese solo minúsculas, sin acentos, ni caracteres especiales</label>
+                <div class="botones">   
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div> 
+            </section>
+                
+            <section>
+                <textarea class="mensaje" cols="18" rows="8"></textarea>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>
+                
+        </main>
+
+        <footer>
+            <p class="copyright">&copy Copyright Sebastian Vazquez - 2022</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

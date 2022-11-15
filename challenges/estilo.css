@@ -1,0 +1,61 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#57adf3,#e5e5e5,#6185f0);
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto{
+    margin-top: 90px;
+}
+
+.mensaje{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+}
+
+.copiar{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar{
+    background-color: darkblue;
+    color: white;
+}
+
+.desencriptar{
+    margin-left: 30px;
+}
+
+.informacion{
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
